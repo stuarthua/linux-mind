@@ -1,0 +1,49 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh'
+defaultContentLanguage = 'zh'
+title = 'Linux Mind'
+
+[module]
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+# ***********
+#   主题设置  
+# ***********
+[languages]
+[languages.zh]
+  languageName = '简体中文'
+  contentDir = 'content'
+  weight = 1
+
+# Book configuration
+disablePathToLower = true
+# enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/stuarthua/linux-mind"
+  weight = 10
+
+[params]
+  BookTheme = 'auto'
+  BookToC = true
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/stuarthua/linux-mind'
+  BookEditPath = 'edit/main'
+  BookDateFormat = 'January 2, 2006'
+  BookSearch = true
+  BookComments = true
+  BookPortableLinks = true
+  BookServiceWorker = true
+  BookTranslatedOnly = false
