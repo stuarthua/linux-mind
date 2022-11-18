@@ -7,7 +7,7 @@ bookFlatSection: true
 ## 常用国内镜像源
 
 {{< hint info >}}
-PS: 近期各家云的镜像站集体抽风，速度莫名其妙跑到了 10-500K，甚至还远不如各大高校提供的镜像站
+PS: 近期各家云的镜像站集体抽风，速度莫名其妙跑到了 10-500K，甚至远不如各大高校提供的镜像站
 {{< /hint >}}
 
 * [阿里云 镜像站](https://developer.aliyun.com/mirror/)
