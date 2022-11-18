@@ -29,14 +29,15 @@ weight: 1
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
+
+# deb https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -51,14 +52,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+
+# deb https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -73,14 +75,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
-deb https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src https://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+# deb https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb-src https://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -104,14 +107,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.cloud.tencent.com/ubuntu/ jammy main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-security main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-security main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-updates main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-proposed main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-proposed main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-backports main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-security main restricted universe multiverse
+deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-security main restricted universe multiverse
+
+# deb https://mirrors.cloud.tencent.com/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirrors.cloud.tencent.com/ubuntu/ jammy-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -126,14 +130,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.cloud.tencent.com/ubuntu/ focal main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
+
+# deb https://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -148,14 +153,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.cloud.tencent.com/ubuntu/ bionic main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-security main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-security main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-updates main restricted universe multiverse
-deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-proposed main restricted universe multiverse
-deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-security main restricted universe multiverse
+
+# deb https://mirrors.cloud.tencent.com/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb-src https://mirrors.cloud.tencent.com/ubuntu/ bionic-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -179,14 +185,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.163.com/ubuntu/ jammy main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ jammy main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ jammy-updates main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ jammy-backports main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse
+deb-src https://mirrors.163.com/ubuntu/ jammy-security main restricted universe multiverse
+
+# deb https://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirrors.163.com/ubuntu/ jammy-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -201,14 +208,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.163.com/ubuntu/ focal main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src https://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
+
+# deb https://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -223,14 +231,15 @@ EOF"
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
 deb https://mirrors.163.com/ubuntu/ bionic main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ bionic main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ bionic-updates main restricted universe multiverse
-deb https://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse
-deb-src https://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb https://mirrors.163.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src https://mirrors.163.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb https://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src https://mirrors.163.com/ubuntu/ bionic-security main restricted universe multiverse
+
+# deb https://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse
+# deb-src https://mirrors.163.com/ubuntu/ bionic-proposed main restricted universe multiverse
 EOF"
 ```
 {{< /tab >}}
@@ -277,7 +286,7 @@ EOF"
 
 ```bash
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+# 默认注释了源码镜像以提高 apt update 速度，如需自行编译相关软件可取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
@@ -302,7 +311,7 @@ EOF"
 
 ```bash
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+# 默认注释了源码镜像以提高 apt update 速度，如需自行编译相关软件可取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
@@ -363,7 +372,7 @@ EOF"
 
 ```bash
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+# 默认注释了源码镜像以提高 apt update 速度，如需自行编译相关软件可取消注释
 deb https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
 # deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
 deb https://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
@@ -388,7 +397,7 @@ EOF"
 
 ```bash
 sudo bash -c "cat << EOF > /etc/apt/sources.list && apt update 
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+# 默认注释了源码镜像以提高 apt update 速度，如需自行编译相关软件可取消注释
 deb https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
 # deb-src https://mirrors.ustc.edu.cn/ubuntu/ bionic main restricted universe multiverse
 deb https://mirrors.ustc.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
