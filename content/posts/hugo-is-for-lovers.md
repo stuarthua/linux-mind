@@ -87,3 +87,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
 ## Step 4. Have fun
 
 The best way to learn something is to play with it.
+
+## test
+
+![WX20221118-120541-2022-11-18-12-07-05](https://raw.githubusercontent.com/stuarthua/PicGo/master/linux-mind/WX20221118-120541-2022-11-18-12-07-05.png)
